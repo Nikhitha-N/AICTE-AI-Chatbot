@@ -1,0 +1,35 @@
+intent,user_input,entity_name,entity_value,action,bot_reply
+greet,hi,,,utter_mainmenu,How may I help you?
+mainmenu_features,/mainmenu_features,,,utter_mainmenu_features,Hope these might help you out
+contest,/contest,,,utter_contest,AICTE launches <b>START UP INDIA</b> to guide and promote student driven innovations & start-ups 
+ Visit the website: <a href='www.startup.aicte-india.org'>www.startup.aicte-india.org</a>
+utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,How may I help you?
+mainmenu_about,/mainmenu_about,,,utter_mainmenu_about,Know more about<b> AICTE </b> from the following
+member,/member,,,utter_member,All individuals desirous of being considered for empanelment under various categories are requested to apply online by submitting relevant data, uploading the CV and Photograph at <b>Bureau>Technical Program>Experts</b> on the AICTE web Portal www.aicte-india.org 
+utter_contd,Would you like to explore more? (yes/no)
+deny,no,,,utter_goodbye,Thank you,bye 
+ Hope your queries are met, if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni'>https://bit.ly/3vGkCni</a>
+utter_service, Are you satisfied with the service?
+good_service,/good_service,,,greet,hi,,,utter_mainmenu,How may I help you?
+mainmenu_about,/mainmenu_about,,,utter_mainmenu_about,Know more about<b> AICTE </b> from the following
+engg,/engg,,,utter_engg,All the <b>Engineering, MBA</b> and <b>Pharmacy colleges</b> are affiliated with the All India Council for Technical Education. While technical institutions are overlooked by the AICTE, the other universities and colleges fall under the UGC.
+ It offers 
+ <b>   1. PARAKH </b>- Student learning assessment 
+ <b>   2. NEAT </b>- National Educational Alliance for Technology 
+ <b>  3. Indian Innovation initiative </b>and so on to improve the standard of education in India
+utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,How may I help you?
+mainmenu_features,/mainmenu_features,,,utter_mainmenu_features,Hope these might help you out
+courses,/courses,,,utter_courses,AICTE provides various <b> free courses</b> and <b>internship opportunities </b> on famous learning platforms.
+ Find them under quick links(AICTE AI-language transalational tool) or try using <a href='https://free.aicte-india.org/'>link</a>
+utter_contd,Would you like to explore more? (yes/no)
+affirm,yes,,,utter_mainmenu,How may I help you?
+menu,/menu,,,utter_menu,Hey,Choose your <b> domain </b> of query
+submenu_payment,/submenu_payment,,,utter_submenu_payment,Anything as below?
+payment_queries,/payment_queries,,,utter_payment_queries,For queries related to payment, raise a grievance at <a href='https://www.facilities.aicteindia.org/ApprovalProcess/apformEmail.php'>https://www.facilities.aicteindia.org/ApprovalProcess/apformEmail.php</a>) 
+utter_contd,Would you like to explore more? (yes/no)
+deny,no,,,utter_goodbye,Thank you,bye 
+ Hope your queries are met, if not <b>contact us</b> using:  <a href='https://bit.ly/3vGkCni'>https://bit.ly/3vGkCni</a>
+utter_service, Are you satisfied with the service?
+ok_service,/ok_service,,,
